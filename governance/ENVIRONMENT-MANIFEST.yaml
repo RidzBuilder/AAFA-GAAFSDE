@@ -1,0 +1,24 @@
+environment:
+  id: AAFA-GAAFSDE
+  repository: RidzBuilder/AAFA-GAAFSDE
+  branch: main
+  normative_parent: AAFA v1.0
+  operational_parent: AAFA-FSDW v0.1
+  workflow:
+    stages: [S00,S01,S02,S03,S04,S05,S06,S07,S08,S09,S10,S11]
+  evidence:
+    levels: [E0,E1,E2,E3,E4,E5]
+  conformance:
+    agentic_tests: [AT-01,AT-02,AT-03,AT-04,AT-05]
+    agnostic_tests: [AG-01,AG-02,AG-03,AG-04,AG-05]
+  claims:
+    agentic_proof: false
+    agnostic_proof: false
+    production_authorized: false
+  runtime:
+    reference_boundary: implemented
+    external_provider_authorization: pending
+  governance:
+    no_silent_bypass: true
+    no_evidence_no_pass: true
+    project_boundary_locked: true
